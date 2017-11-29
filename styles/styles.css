@@ -1,0 +1,57 @@
+html{
+  box-sizing: border-box;
+}
+main{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.window{
+  display: flex;
+  justify-content: space-between;
+}
+.sideBar{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+.profileImg{
+  max-width: 90%;
+  margin-left: 5%;
+}
+.profileImg img{
+  width: 100%;
+}
+.readBooks{
+  display: flex;
+  justify-content: space-around;
+  border: 2px black solid;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 1em;
+}
+.reccommendedBooks{
+  display: flex;
+  justify-content: space-around;
+  border: 2px black solid;
+  border-radius: 3px;
+  padding: 5px;
+}
+.book{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.book p{
+  text-align: justify;
+}
+.image{
+  max-width: 90%;
+  margin-left: 5%;
+}
+.image img{
+  width: 100%;
+}
