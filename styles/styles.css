@@ -1,43 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 html{
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
 }
 main{
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   align-content: space-between;
+}
+nav{
+  background-color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 5%;
+}
+.window{
+  width: 95%;
+  margin: auto;
+  margin-top: 2.5%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.appName{
+  width: 70%;
+}
+.links{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+.links a{
+  color: black;
+  text-decoration: none;
 }
 .window{
   display: flex;
   justify-content: space-between;
 }
 .sideBar{
-  width: 30%;
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-content: space-between;
+  background-color: #ddd;
+  padding: 2% 5%;
+  border-radius: 1em;
+}
+.sideBar h1{
+  text-align: center;
+}
+.sideBar p{
+  font-size: 0.75em;
 }
 .profileImg{
   max-width: 90%;
   margin-left: 5%;
+  border-radius: 100px;
 }
 .profileImg img{
+  width: 80%;
+  border-radius: 100%;
+  margin-left: 10%;
+}
+.smallProfileImg{
+  width: 10%;
+}
+.smallProfileImg img{
   width: 100%;
+  border-radius: 100%;
 }
 .readBooks{
   display: flex;
-  justify-content: space-around;
-  border: 2px black solid;
-  border-radius: 3px;
-  padding: 5px;
+  flex-direction: column;
+  align-content: space-around;
+  border: 2px #ccc solid;
+  border-radius: 1em;
+  padding: 2%;
   margin-bottom: 1em;
+}
+.readBooksContent{
+  display: flex;
+  justify-content: space-around;
 }
 .reccommendedBooks{
   display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  border: 2px #ccc solid;
+  border-radius: 1em;
+  padding: 2%;
+}
+.reccommendedBooksContent{
+  display: flex;
   justify-content: space-around;
-  border: 2px black solid;
-  border-radius: 3px;
-  padding: 5px;
 }
 .book{
   width: 30%;
@@ -46,12 +111,28 @@ main{
   justify-content: space-around;
 }
 .book p{
-  text-align: justify;
+  font-size: 0.75em;
+  width: 90%;
+  margin-left: 5%;
 }
 .image{
-  max-width: 90%;
-  margin-left: 5%;
+  width: 60%;
+  max-width: 150px;
+  margin: auto;
 }
 .image img{
   width: 100%;
+}
+.rating{
+  color: yellow;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 0 2em;
+}
+.rating p{
+  background-color: #ccc;
+  border-radius: 1em;
+}
+.heading{
+  display: block;
 }
